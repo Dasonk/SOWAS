@@ -1,0 +1,20 @@
+Package: sowas
+Version: 0.93
+Date: 2007-05-22
+Title: Software for Wavelet Analysis and Synthesis
+Author: Douglas Maraun <d.maraun@uea.ac.uk>.
+Maintainer: Dason Kurkiewicz <dasonk@iastate.edu>
+Depends:
+    R,
+    Rwave,
+    stats
+Description: The package calculates wavelet sample spectra and
+    wavelet sample coherency as well as corresponding pointwise
+    and areawise significance tests.
+    It also generates realizations of any wavelet sample
+    spectrum.
+License: GPL version 2 or newer
+URL: http://tocsy.agnld.uni-potsdam.de/wavelets
+Collate:
+    'sowas.R'
+    'zzz.R'
